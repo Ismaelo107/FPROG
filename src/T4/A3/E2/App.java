@@ -42,20 +42,31 @@ public class App {
                     break;
 
                 case 3:
-                    System.out.println("Introducir id a buscar: ");
+                    System.out.println("Introducir libro a buscar:");
                     id = sc.nextInt();
                     Libro libro;
-                    Iterator<Libro> it = list.iterator();
-                    while (it.hasNext()) {
+                    /*Iterator<Libro> it = list.iterator();
+                    while (it.hasNext()){
                         libro = it.next();
-                        if (libro.getId() == id) {
-                            System.out.println("Libro encontrado");
+                        if (libro.getId() == id){
+                            System.out.println("Libro encontrado:");
                             for (Libro p :
                                     list) {
-                                System.out.println();
+                                System.out.println(p);
                             }
+                        }else{
+                            System.out.println("Libro no encontrado, losiento");
+                        }
+                    }*/
+
+                    for (Libro p :
+                            list) {
+                        if (p.getId()==id){
+                            System.out.println("Libro encontrado");
+                            System.out.println(p);
                         }
                     }
+
                     break;
                 case 4:
 
