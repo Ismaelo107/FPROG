@@ -48,10 +48,11 @@ public class Asignatura implements Comparable<Asignatura> {
                 ", nombre='" + nombre + '\'' +
                 ", hora='" + hora + '\'' +
                 '}';
+
     }
 
     @Override
-    public int compareTo(Asignatura o) {
+    public int compareTo(Asignatura o){
         return o.getCodigo().compareTo(this.codigo);
     }
 }
