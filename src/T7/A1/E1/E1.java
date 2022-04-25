@@ -1,4 +1,4 @@
-package Tema7.A1.E1;
+package T7.A1.E1;
 
 import java.io.File;
 import java.io.FileWriter;

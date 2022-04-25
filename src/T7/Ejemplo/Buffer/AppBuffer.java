@@ -1,4 +1,4 @@
-package Tema7.Ejemplo.Buffer;
+package T7.Ejemplo.Buffer;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package Tema7.Ejemplo.Ficheros;
+package T7.Ejemplo.Ficheros;
 
 import java.io.File;
 import java.io.FileReader;
